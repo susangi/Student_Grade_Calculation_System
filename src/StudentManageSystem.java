@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class StudentManageSystem {
     protected static int choice;
-    protected  static ArrayList<Student> students = new ArrayList<>();
+    protected  static ArrayList<Student> students = new ArrayList<>(); // create array list for store students of insert
 
     public static void main(String[] args) throws InvalidMarkException {
         System.out.println("Welcome to the Student ManageSystem");
@@ -49,7 +49,6 @@ public class StudentManageSystem {
                     System.out.println();
                 }
                 selectOption();
-                System.exit(0);
                 break;
             case 4:
                 System.out.println("Exiting program. Goodbye!");
